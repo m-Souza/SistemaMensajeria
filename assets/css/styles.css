@@ -19,6 +19,7 @@
     font-size: 14px;
     border-bottom: 2px solid #bec1bb;
     padding: 5px;
+    flex-grow: 1;
 }
 
 .friend-thumb{
@@ -39,8 +40,13 @@
 
 .friend img{
     border-radius: 100%;
-    width: 40px;
-    padding: 10px;
+    width: 45px;
+    margin: 10px;
+    border: 2px solid #E8EBE4;
+}
+
+.active img{
+    width: 35px;
 }
 
 .options-icons{
@@ -92,6 +98,7 @@
     justify-content: center;
     align-items: center;
     border-left: 2px solid #bec1bb;
+    
 }
 
 .logo-textos{
