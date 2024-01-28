@@ -1,0 +1,117 @@
+/* Friends list section */
+.chat-container{
+    display: flex;
+    min-height: 100vh;
+}
+
+.friends{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;;
+}
+
+.friend{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    border-bottom: 2px solid #bec1bb;
+    padding: 5px;
+}
+
+.friend-thumb{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.friend .active-note{
+    display: none;
+    color: #bec1bb;
+    font-size: 10px;
+}
+
+.friend-name {
+    font-weight: bold;
+}
+
+.friend img{
+    border-radius: 100%;
+    width: 40px;
+    padding: 10px;
+}
+
+.options-icons{
+    display: flex;
+    color: #bec1bb;
+    flex-wrap: wrap;
+}
+ .options-icons i{
+    font-size: large;
+    padding: 5px;
+    display: none;
+ }
+
+.active .active-note{
+    display: block;
+}
+
+.active .message-preview{
+    display: none;
+}
+
+.active .options-icons i{
+    display: block;
+}
+
+.start-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100px;
+    border-bottom: 2px solid #bec1bb;
+}
+
+.start-chat button{
+    min-width: 30%;
+    min-height: 30%;
+    background-color: #a491d2;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+
+/* Messages section */
+
+.chat{
+    background-color: #E8EBE4;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px solid #bec1bb;
+}
+
+.logo-textos{
+    font-family: 'Roboto', sans-serif;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.chat img{
+    width: 200px;
+}
+
+.chat h1{
+    font-size: 45px;
+}
+.chat p{
+    font-size: 16px;
+}
+
+
