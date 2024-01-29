@@ -1,3 +1,3 @@
 # SistemaMensajeria
-Preview (WIP, still not working properly):
+Deployment:
 https://m-souza.github.io/SistemaMensajeria/
